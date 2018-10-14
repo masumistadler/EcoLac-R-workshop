@@ -13,7 +13,7 @@ The workshop will be provided for beginners and more advanced participants. For 
 
 ## Tutorial
 ### Pre-workshop: Installation of R and R studio
-### R-Base
+### Base R
 #### - Windows users
 1. Open internet browser and open www.r-project.org
 2. Click the "download R" link in the middle of the page in the section "Getting started"
@@ -57,7 +57,7 @@ sudo apt-get install r-base r-base-dev
 5. You are all set for base R, continue with installing R studio
 
 ### R Studio
-R studio is a user friendly platform that makes working with R easier. Therefore, I highly recommend it, especially for someone being new to R. We will mainly work in R studio in the workshop, so if you only install R-Base the first thing I will tell you is to install it.
+R studio is a user friendly platform that makes working with R easier. Therefore, I highly recommend it, especially for someone being new to R. We will mainly work in R studio in the workshop, so if you only install base R the first thing I will tell you is to install it.
 1. Go to https://www.rstudio.com/products/rstudio/download/#download
 2. Navigate to the "Installers for Supported Platforms" section
 3. Choose an installer for your OS (Windows, Mac, Ubuntu etc.), click and save
