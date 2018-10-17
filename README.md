@@ -11,8 +11,9 @@ Have you experienced never ending weekends fiddling in your excel sheets? Copy a
 The workshop will be provided for beginners and more advanced participants. For the beginners, I will start with an introduction into the R language and basic commands to organise your data. Whereas, for the advanced participants who already speak R, we will directly dig into the coding of loops, enabling you to automatise data extraction from raw files. I will provide an example dataset for which you will create a script to automatise the data analysis, starting with data extraction to plotting your data with ggplot.
 **Important:** If you are intending to participate in the workshop, please bring your laptop and make sure to download and install R and R studio in advance. Please follow the instructions provided.
 
-## Tutorial
-### Pre-workshop: Installation of R and R studio
+---
+ 
+## Pre-workshop: Installation of R and R studio
 ### Base R
 #### - Windows users
 1. Open internet browser and open www.r-project.org
