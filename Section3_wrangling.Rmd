@@ -1,0 +1,104 @@
+---
+title: 'Section 3: Data transformation'
+author: "Authored by Masumi Stadler for the ÈcoLac fall workshop 26-28th October 2018"
+output: 
+  html_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Communication with your local computer
+
+## Import data
+Importing data is one of the most crucial steps to cross the bridge between your local computer and the R environment. If you're used to work with Excel files, you should get used to save tables as a `.csv` file from now on. `.csv` stands for 'comma separated values'. It's basically a text file with a lot of numbers or strings. There are packages that allow for importing Excel files, but there are sometimes unexpected conversion issues that can affect the data, so avoid it if possible!
+
+A few points for preparing your '.csv' files for import:
+
+* Column headings should not contain spaces (use separators such as '.' or '_')
+* Column headings should not start with a number
+* Decimal points shoul be a point, not a comma
+* Write missing values as NA or leave them blank (otherwise, you're column becomes a character)
+
+```{r}
+lake <- read.csv("./Data/lake_incubation.csv", sep = ";", dec = ".", stringsAsFactors = F)
+head(lake)
+```
+
+`read.csv()` imports '.csv' files with exactly the same name as the text in quotations. In this example, we have also specified the separator ';' and the decimal '.' just to make sure. By default, the first row is read as a header so colum names. If your data does not have a header make sure to set the argument `header = FALSE`.
+
+Note that we have to assign the table to an object as always, otherwise, we cannot use the data set in future operations.
+
+## Never use attach()
+It is possible to attach data to the global environment in such a way that indexing it is not necessary. As an example, by using the `attach()` function with our data we can select columns without tagging `data[,...]` to the front of the code:
+
+```{r}
+attach(lake)
+season # season column
+timepoint # timepoint column
+detach(lake) # remove it
+```
+
+The problem with attaching data is that there is the potential to loose track of where the variables come from and what they actually mean. This is avoided if objects are named as they are used. Attaching data becomes especially confusing when dealin with several attached data sets at the same time (!) - in these circumstances it is easy to accidentally overwrite columns if two data sets have the same column names!
+
+---
+
+## Export data
+
+One of the biggest benefits of R is that modifcations in R objects only take place inside the R environment. Meaning that the original data in the folder has not been altered at all. This means that no data processing, manipulation or analysis can alter the original data - unless you write over the original file. So, when exporting R objects into your local computer, always choose a new file name except if you have a very good reason to overwrite the original.
+
+```{r, eval = FALSE}
+write.table(lake, "modified_lake_incubation.csv", sep = ";", dec = ".",
+            row.names = FALSE)
+```
+
+Here, the function exports the data frame `lake` to a new file called 'modified_lake_incubation.csv'. Note that the suffix matters! If you'd like to save it as a text file exchange the `.csv` to a `.txt`. We specify a separator and the decimal symbol (just to make sure) and we do not save row names into the new table.
+
+---
+
+### Save R objects
+
+As you work more in R, you will notice that you encounter times when you have an R object that is not easily converted to a '.csv' file but takes a long time to compute and create (computationally expensive). In such cases, any R object can be saved with `saveRDS()`.
+
+```{r, eval = FALSE}
+saveRDS(object, "./Output/anyobject.rds")
+```
+
+First the R object to be stored and make sure to use the extension '.rds' in your path and file name.
+
+```{r, eval = FALSE}
+obj <- readRDS("./Output/anyobject.rds")
+```
+
+Such a saved R object can be easily read into the R environment again, with `readRDS()`.
+
+---
+
+# Data transformation
+
+Now let us try some data transformation. For this, we are going to use a package called `dplyr` that is part of the `tidyverse`.
+
+```{r, eval = F}
+install.packages("tidyverse") # contains many packages including ggplot2 and dplyr
+install.packages("nycflights13")
+#install.packages("dplyr")
+library(tidyverse)
+library(nycflights13)
+```
+
+If I'm very honest with you, I ran out of preparation time and there is actually a great tutorial online. I tried to write one myself, but I cannot top this amazing tutorial recommended or even written by the `tidyverse` developers. So, I recommend you to do this directly on their page, they also have more excercies for each step!
+
+[R for Data Science: Transform](https://r4ds.had.co.nz/transform.html)
+
+---
+
+# Tidying
+
+The same goes for tidying data, follow this great tutorial:
+
+[R for Data Science: Tidy data](https://r4ds.had.co.nz/tidy-data.html)
+
+---
+

@@ -191,7 +191,7 @@ RStudio.Version() # to cite R studio
 ## My acknowledgements
 
 I'll also take the chance here to acknowledge all my R teachers.
-Stefan Dullinger, Johannes Wessely, Robert Ptacnik, Gabriel Singer from the University of Vienna and especially Tom Walker. The "R basics tutorial" is almost 100% his creation and was the best introductiory course I have ever taken.
+Stefan Dullinger (University of Vienna), Johannes Wessely (University of Vienna), Robert Ptacnik (University of Vienna), Gabriel Singer (IGB) and especially Tom Walker (). The "R basics tutorial" is almost 100% Tom's creation and was the best introductiory course I have ever taken.
 
 ---
 
