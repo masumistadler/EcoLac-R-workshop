@@ -67,4 +67,7 @@ R studio is a user friendly platform that makes working with R easier. Therefore
 
 # Download this github repository
 
+Hit `Clone or Download` at top right of the github page.
+
+![](./Figures/github_clone.png)
 
