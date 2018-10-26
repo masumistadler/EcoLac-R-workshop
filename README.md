@@ -64,3 +64,7 @@ R studio is a user friendly platform that makes working with R easier. Therefore
 2. Navigate to the "Installers for Supported Platforms" section
 3. Choose an installer for your OS (Windows, Mac, Ubuntu etc.), click and save
 4. Double-click on your .exe (Windows), .dmg (Mac) or .deb (Ubuntu) file and follow installation instructions
+
+# Download this github repository
+
+
