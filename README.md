@@ -1,5 +1,5 @@
 # May R be with you: how you can revolutionize your research workflow
-This repository contains files, instructions and data for the R workshop given in the ÉcoLac autumn workshop 2018, organised by the Groupe de recherche interuniversitaire en limnologie en environnement aquatique (GRIL).
+This repository contains files, instructions and data for the R workshop given in the [ÉcoLac](https://oraprdnt.uqtr.uquebec.ca/pls/public/gscw030?owa_no_site=4132) autumn workshop 2018, organised by the [Groupe de recherche interuniversitaire en limnologie en environnement aquatique (GRIL)](https://oraprdnt.uqtr.uquebec.ca/pls/public/gscw030?owa_no_site=543).
 
 ## About
 The ÉcoLac workshop takes place every year in autumn at the Station biologique de Laurentides (SBL) close to Montréal. It provides undergraduate, graduate students and postdocs the opportunity to attend several workshops they are interested in. This year, I will provide a workshop covering the power of R - not the statistical power but how one can use R to optimise a research workflow.
