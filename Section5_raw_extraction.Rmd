@@ -9,7 +9,18 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-Now the main idea of this workshop is to teach you how to automatise raw data extraction into R but all the previous sections build up to this. You'll need to know how to organise your files, how to transform your data and plot them for this excercise.
+
+---
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+<br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">"May R be with you: how you can revolutionze your research workflow"</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/masumistadler/EcoLac-R-workshop" property="cc:attributionName" rel="cc:attributionURL">Masumi Stadler</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+
+*Share, adapt, and attribute please!*
+
+---
+
+Now the main idea of this whole workshop is to teach you how to automatise raw data extraction into R but all the previous sections build up to this. You'll need to know how to organise your files, how to transform your data and plot them for this excercise.
 
 Your raw data is, raw data. **Do not touch it!** It has to remain untouched forever.
 

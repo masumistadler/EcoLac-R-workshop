@@ -191,7 +191,7 @@ RStudio.Version() # to cite R studio
 ## My acknowledgements
 
 I'll also take the chance here to acknowledge all my R teachers.
-Stefan Dullinger (University of Vienna), Johannes Wessely (University of Vienna), Robert Ptacnik (University of Vienna), Gabriel Singer (IGB) and especially Tom Walker (). The "R basics tutorial" is almost 100% Tom's creation and was the best introductiory course I have ever taken.
+[Stefan Dullinger (University of Vienna)](http://cvl.univie.ac.at/department/Staff/staff_detail.cfm?Nachname=Dullinger), [Johannes Wessely (University of Vienna)](http://cvl.univie.ac.at/department/Staff/staff_detail.cfm?Nachname=Wessely&Vorname=Johannes), [Robert Ptacnik (WasserCluster Lunz)](https://aquascalelab.wordpress.com/members/robert-ptacnik/), [Gabriel Singer (IGB)](https://www.igb-berlin.de/en/singer) and especially [Tom W.N. Walker (UNIL)](https://scholar.google.com/citations?user=pCqEWrEAAAAJ&hl=en). The "R basics tutorial" is almost 100% Tom's creation and was the best introductiory course to R that I have ever taken.
 
 ---
 

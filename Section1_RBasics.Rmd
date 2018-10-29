@@ -12,6 +12,18 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+---
+
+This tutorial is based on and adapted from an internally given workshop created by [Dr. Tom W. N. Walker](https://scholar.google.com/citations?user=pCqEWrEAAAAJ&hl=en) at the [Terrstrial Ecosystem Research Division](http://ter.csb.univie.ac.at/) of the University of Vienna in 2016.
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+This tutorial is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+
+*Share, adapt, and attribute please!*
+
+---
+
 # Basics of the R language
 In this section we will learn the very basics of R and how to communicate with it.
 

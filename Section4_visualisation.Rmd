@@ -10,6 +10,19 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+---
+
+Parts of this tutorial are adapted from an workshop created by [Taylor Dunivin](http://taylordunivin.com/) for the Explorations in Data Analyses for [Metagenomic Advances in Microbial Ecology (EDAMAME) workshop 2018](http://www.edamamecourse.org/). The data used for the last challenge is also a data set from the [Ashley Shade Lab](http://ashley17061.wixsite.com/shadelab) of the Michigan State University.
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+This tutorial is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+
+*Share, adapt, and attribute please!*
+
+---
+
+
 Ploting is a vital part of research. There are several ways of plotting in R.
 Plotting with the `base` package is popular with the 'traditional' R users, but personally, I prefer plotting with `ggplot2` because of it's intuitive coding of plotting and makes life easier for people working with categories and colouring.
 
