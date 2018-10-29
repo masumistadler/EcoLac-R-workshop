@@ -76,3 +76,12 @@ Hit `Clone or Download` at top right of the github page.
 Hit: 'Download ZIP'
 
 Download and unzip somewhere on your local computer.
+
+---
+
+# *Share, adapt and attribute*
+
+The tutorials are not completely my work and are also free to be shared and adapted.
+However, please attribute the corresponding authors of the tutorials in case you do so.
+
+All tutorials have a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
