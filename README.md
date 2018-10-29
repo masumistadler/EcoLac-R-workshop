@@ -73,3 +73,6 @@ Hit `Clone or Download` at top right of the github page.
 
 ![](./Figures/github_clone.png)
 
+Hit: 'Download ZIP'
+
+Download and unzip somewhere on your local computer.
